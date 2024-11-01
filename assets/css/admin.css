@@ -1,0 +1,97 @@
+.wvc-generate-codes {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.wvc-generate-codes select,
+.wvc-generate-codes input {
+	width: 130px;
+	font-size: 13px;
+    line-height: 26px;
+    display: inline-block;
+    height: 28px;
+}
+.wvc-generate-codes select {
+	position: relative;
+	top: -2px;
+}
+
+.wvc-generate-codes select.not-valid {
+	border-color: red;
+}
+
+.wvc-codes-list__new td {
+	background-color: #ebffef;
+}
+
+.wvc-add-code,
+.wvc-edit-code {
+	padding: 20px 20px 12px;
+	background-color: #fff;
+	margin-bottom: 30px;
+	display: none;
+}
+
+.wvc-add-code.active,
+.wvc-edit-code.active {
+	display: block;
+}
+
+.wvc-add-code .wvc-form-row,
+.wvc-edit-code .wvc-form-row {
+	margin-bottom: 8px;
+}
+
+.wvc-add-code .wvc-form-row label,
+.wvc-edit-code .wvc-form-row label {
+	display: inline-block;
+	width: 100px;
+}
+
+.wvc-options-block__wrap th {
+	min-width: 100px;
+}
+
+.wvc-options-block__wrap th,
+.wvc-options-block__wrap td {
+	padding-bottom: 5px;
+	text-align: left;
+	vertical-align: top;
+}
+.wvc-options-block__wrap label {
+	display: block;
+	padding-bottom: 7px;
+}
+
+tr td.wvc-va-center,
+tr th.wvc-va-center {
+	vertical-align: middle;
+}
+tr .wvc-va-center .wp-picker-container .wp-color-result.button {
+	margin: 0;
+}
+
+.wvc-options-block__wrap .wvc-ft2,
+.wvc-options-block__wrap .wvc-ft3,
+.wvc-options-block__wrap .wvc-ft4,
+.wvc-options-block__wrap .wvc-ft5,
+.wvc-options-block__wrap .wvc-ft6 {
+	display: none;
+}
+
+.wvc-branding {
+	padding-top: 10px;
+	max-width: 60%;
+}
+
+.wvc-branding img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+@media(max-width: 992px) {
+	.wvc-branding {
+		max-width: 100%;
+	}
+}
